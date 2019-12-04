@@ -9,6 +9,10 @@ import (
 	two "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/02"
 	three "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/03"
 	four "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/04"
+	five "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/05"
+	six "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/06"
+	seven "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/07"
+	eight "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/08"
 )
 
 func main() {
@@ -25,5 +29,13 @@ func main() {
 		three.Three()
 	case 4:
 		four.Four()
+	case 5:
+		five.Five()
+	case 6:
+		six.Six()
+	case 7:
+		seven.Seven()
+	case 8:
+		eight.Eight()
 	}
 }
