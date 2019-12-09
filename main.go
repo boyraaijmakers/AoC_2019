@@ -21,6 +21,8 @@ import (
 	fourteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/14"
 	fifteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/15"
 	sixteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/16"
+	seventeen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/17"
+	eighteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/18"
 )
 
 func main() {
@@ -61,5 +63,9 @@ func main() {
 		fifteen.Fifteen()
 	case 16:
 		sixteen.Sixteen()
+	case 17:
+		seventeen.Seventeen()
+	case 18:
+		eighteen.Eighteen()
 	}
 }
