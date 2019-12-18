@@ -1,6 +1,20 @@
 package main
 
 import (
+	twentyone "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/21"
+	twentytwo "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/22"
+	twentythree "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/23"
+	twentyfour "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/24"
+	twentyfive "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/25"
+	twentysix "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/26"
+	twentyseven "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/27"
+	twentyeight "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/28"
+	twentynine "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/29"
+	thirty "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/30"
+	thirtyone "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/31"
+	thirtytwo "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/32"
+	thirtythree "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/33"
+	thirtyfour "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/34"
 	"fmt"
 	"os"
 	"strconv"
@@ -23,6 +37,8 @@ import (
 	sixteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/16"
 	seventeen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/17"
 	eighteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/18"
+	nineteen "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/19"
+	twenty "bitbucket.org/aimdeloittenl/aoc2019_boyraaijmakers/levels/20"
 )
 
 func main() {
@@ -67,5 +83,38 @@ func main() {
 		seventeen.Seventeen()
 	case 18:
 		eighteen.Eighteen()
+	case 19:
+		nineteen.Nineteen()
+	case 20:
+		twenty.Twenty()
+	case 21:
+		twentyone.Twentyone()
+	case 22:
+		twentytwo.Twentytwo()
+	case 23:
+		twentythree.Twentythree()
+	case 24:
+		twentyfour.Twentyfour()
+	case 25:
+		twentyfive.Twentyfive()
+	case 26:
+		twentysix.Twentysix()
+	case 27:
+		twentyseven.Twentyseven()
+	case 28:
+		twentyeight.Twentyeight()
+	case 29:
+		twentynine.Twentynine()
+	case 30:
+		thirty.Thirty()
+	case 31:
+		thirtyone.Thirtyone()
+	case 32:
+		thirtytwo.Thirtytwo()
+	case 33:
+		thirtythree.Thirtythree()
+	case 34:
+		thirtyfour.Thirtyfour()
+
 	}
 }
